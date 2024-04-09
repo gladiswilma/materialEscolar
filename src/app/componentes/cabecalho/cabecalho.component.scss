@@ -1,0 +1,66 @@
+@import "../../app.component.scss";
+
+
+
+.container{
+    background-color: $cor-principal;
+    font-size: 24px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+img{
+    width: 60px;
+    margin: 10px;
+
+}
+
+h1{
+    color: $branco;
+    
+}
+
+.menu{
+    width: 66,67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+    
+
+
+    li{
+        list-style-type: none;
+    }
+
+    img{
+        width: 30px;
+        margin: 10px;
+        cursor: pointer;
+                
+    }
+
+    a{ 
+        font-family: $cor-secundaria;
+        color: $cor-secundaria;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+            color: $efeito;
+            text-decoration: underline;
+        }
+
+    }
+}

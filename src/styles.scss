@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
+.telaFundo{
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/09/18/16/pencils-4464304_960_720.png");
+    width: 100%;
+    
+    background-size:contain;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+
+
+
+}
+    
+
+.page {
+    min-height: calc(100vh - 170px);
+   
+}
+

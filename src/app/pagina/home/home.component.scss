@@ -1,0 +1,71 @@
+@import '../../app.component.scss';
+
+
+
+.container {
+  width: 1140px;
+  margin: auto;
+  height: 50%;
+
+  h1 {
+    color: $cor-secundaria;
+    padding-top: 20%;
+    
+  }
+
+  //ul lista de materiais
+  .listaMateriais {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+
+    .material {
+      list-style-type: none;
+      width: 33,33%;
+      font-family: $fonte-secundaria;
+      font-size: $pequena;
+      color: $cor-secundaria;
+      margin-top: 5%;
+      box-shadow: $card-shadow;
+      transition: $card-transition;
+      &:hover {
+        box-shadow: $card-shadow-hover;
+      }
+      
+      
+
+      img {
+        width: 200px;
+        
+        
+       
+
+      }
+
+      h5 {
+        font-size: $media;
+        color: $cor-secundaria;
+      }
+
+      ul {
+        li {
+          list-style-type: none;
+          color: $cor-secundaria;
+          font-size: $pequena;
+
+        }
+
+
+      }
+
+     
+    }
+  }
+
+}
+
+
+ 
